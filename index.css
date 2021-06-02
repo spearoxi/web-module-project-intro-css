@@ -74,14 +74,14 @@ a{
 nav a{
     display:inline-block;
     padding:.3%;
-    width: 12%;
+    width: 9%;
     border-radius: 15px;
     text-align: center;
     color:white;
 }
 
 .orange{
-    margin-left:16%;
+    margin-left:21%;
     background:#FF764E;
 }
 .blue{
