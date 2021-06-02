@@ -39,7 +39,7 @@ blockquote, q {
 
 *{
     box-sizing:border-box; 
-    border:1px solid grey;
+    
     padding:0;
     margin:0;
 }
@@ -81,21 +81,22 @@ nav a{
 }
 
 .orange{
-    margin-left:10%;
+    margin-left:16%;
     background:#FF764E;
 }
 .blue{
-    margin:0 20%;
+    margin:0 15%;
     background:#5eD3EB;
 }
 
 .yellow{
-    margin-right:8%;
+    margin-right:10%;
     background:#FFCD69;
 }
 
 /*Top section styles*/
 .top{
+    margin-top:3%;
     position: relative;
     margin-bottom:3%;
 }
@@ -109,9 +110,7 @@ nav a{
     text-align: center;
 }
 
-.right{
-    margin
-}
+
 
 .left{
     width:40%;
@@ -121,7 +120,13 @@ nav a{
     width:45%;
     margin-left:3%;
     position: absolute;
-    top:40%;
+    top:10%;
+}
+
+.right p{
+    margin-left:20%;
+    margin-right:20%;
+    line-height:130%;
 }
 
 .bottomImg{
@@ -145,9 +150,11 @@ footer{
     text-align:center;
 }
 .middle p{
-    margin-left:40%;
-    width:20%;
+    margin-left:37.5%;
+    width:25%;
     margin-bottom:5%;
+    line-height: 2rem;;
+    font-size: 1.5rem;;
 }
 .middle em{
     color:black;
@@ -155,13 +162,14 @@ footer{
 }
 
 .intro{
-    background:tan;
+    background:#DDB9A3;
     margin-right:5%;
     margin-left: 5%;
     margin-bottom:2%;
     color:white;
-    padding:2%;
+    padding:1%;
     text-align:center;
     font-family: 'Roboto Mono';
     font-size: 2rem;
+    line-height:2.5rem;
 }
