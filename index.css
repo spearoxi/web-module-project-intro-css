@@ -1,0 +1,175 @@
+html, body, div, span, applet, object, iframe, table, caption, tbody, tfoot, thead, tr, th, td, 
+del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, 
+h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, 
+dl, dt, dd, ol, ul, li, fieldset, form, label, legend {
+	vertical-align: baseline;
+	font-family: inherit;
+	font-weight: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	outline: 0;
+	padding: 0;
+	margin: 0;
+	border: 0;
+	}
+/* remember to define focus styles! */
+:focus {
+	outline: 0;
+	}
+ol, ul {
+	list-style: none;
+	}
+/* tables still need cellspacing="0" in the markup */
+table {
+	border-collapse: separate;
+	border-spacing: 0;
+	}
+caption, th, td {
+	font-weight: normal;
+	text-align: left;
+	}
+/* remove possible quote marks (") from <q> & <blockquote> */
+blockquote:before, blockquote:after, q:before, q:after {
+	content: "";
+	}
+blockquote, q {
+	quotes: "" "";
+	}
+
+
+*{
+    box-sizing:border-box; 
+    
+    padding:0;
+    margin:0;
+}
+
+body{
+    font-size:1.6rem;
+    line-height: 1.5;
+    color:#4f4f4f;
+    font-family: 'Roboto Mono', monospace;
+}
+
+html{
+    font-size:62.5%;
+}
+
+h1{
+    font-family: 'Chelsea Market', cursive;
+    font-size:5rem;
+}
+section{
+    padding:4%, 0;
+}
+
+nav{
+    padding:2% 0;
+}
+
+a{
+    text-decoration: none;
+}
+/* Header section styles*/
+nav a{
+    display:inline-block;
+    padding:.3%;
+    width: 9%;
+    border-radius: 15px;
+    text-align: center;
+    color:white;
+}
+
+.orange{
+    margin-left:21%;
+    background:#FF764E;
+}
+.blue{
+    margin:0 15%;
+    background:#5eD3EB;
+}
+
+.yellow{
+    margin-right:10%;
+    background:#FFCD69;
+}
+
+/*Top section styles*/
+.top{
+    margin-top:3%;
+    position: relative;
+    margin-bottom:3%;
+}
+
+.left img{
+    border-radius:50%;
+    width:50%;
+}
+.left, .right{
+    display: inline-block;
+    text-align: center;
+}
+
+
+
+.left{
+    width:40%;
+}
+
+.right{
+    width:45%;
+    margin-left:3%;
+    position: absolute;
+    top:10%;
+}
+
+.right p{
+    margin-left:20%;
+    margin-right:20%;
+    line-height:130%;
+}
+
+.bottomImg{
+    height:30vh;
+    background-image: url('assets/footer_img.jpg');
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: top;
+}
+footer{
+    background: #F9E7DC;
+}
+.campfire{
+   width:10%;
+}
+.van{
+    width:10%;
+}
+
+.middle{
+    text-align:center;
+}
+.middle p{
+    margin-left:37.5%;
+    width:25%;
+    margin-bottom:5%;
+    line-height: 2rem;;
+    font-size: 1.5rem;;
+}
+.middle em{
+    color:black;
+    font-weight:bolder;
+}
+
+.intro{
+    background:#DDB9A3;
+    margin-right:5%;
+    margin-left: 5%;
+    margin-bottom:2%;
+    color:white;
+    padding:1%;
+    text-align:center;
+    font-family: 'Roboto Mono';
+    font-size: 2rem;
+    line-height:2.5rem;
+}
